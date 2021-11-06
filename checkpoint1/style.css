@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+header {
+    width:100%;
+    background-color: #1f2235;
+  
+   
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+/* header {
+    background-color: ;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.header-content {
+   display: inline-block;
+   padding-left: 15%;
+   padding-right: 10%;
+} */
+.list1 li{
+    display: inline;
+    color: white;
+    padding: 0 15px;
+    text-decoration : none;
+}
+
+section{
+    background-color: #23263a;
+    text-align: center;
+    
+}
+
+section div{
+    display: inline-block;
+    
+}
+.socielMedia li {
+    display: inline-block;
+    padding: 5px;
+    
+}
+.socielMedia li img {
+    width: 20px;
+    height: 20px ;
+    border: 1px;
+    border-radius: 50px;
+}  
+.principal {
+    position: static;
+    text-align: left ;
+    padding-bottom: 10px;
+    height: 300px;
+
+}
+.myPhoto img {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.principal button{
+    border-radius: 10px;
+    background-color: #23263a;
+    border: 1px solid red;
+   
+}
+.services {
+    background-color: #1f2235;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+.services h6 {
+    color: red;
+    padding: 10px;
+}
+.services h3 {
+    color: white;
+    padding-bottom: 10px;
+}
+.services p {
+    color: white ;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.detailsServices{
+    padding-left: 20%;
+    background-color: #1f2235;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.detailsServices table tr td {
+    text-align: center;
+
+} 
+.detailsServices table tr td ul{
+    list-style: none;
+    text-align: left;
+    border: 0px solid;
+    height: 150px;
+    width: 200px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 50px;
+    background-color: #23263a;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.detailsServices table tr td ul img{
+    padding-bottom: 10px;
+    height: 30px;
+    width: 30px;
+    padding: left 50px; ;
+    
+}
+.detailsServices table tr td ul h4 ,.detailsServices table tr td ul p{
+    color: white;
+    padding-top: 5px;
+}
+.detailsServices table tr td ul p {
+    font-size: 15px;
+}
